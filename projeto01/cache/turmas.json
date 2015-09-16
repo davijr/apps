@@ -1,0 +1,402 @@
+[
+  {
+    "id": 0,
+    "index": 0,
+    "foto": "cache/fotos/turma/0.png",
+    "sincronizado": true,
+    "nome": "Turma de Psicologia",
+    "admin": "Christine",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "index": 1,
+    "foto": "cache/fotos/turma/1.png",
+    "sincronizado": false,
+    "nome": "Turma de Psicologia",
+    "admin": "Mamie",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "index": 2,
+    "foto": "cache/fotos/turma/2.png",
+    "sincronizado": false,
+    "nome": "Turma de Psicologia",
+    "admin": "Addie",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "index": 3,
+    "foto": "cache/fotos/turma/3.png",
+    "sincronizado": true,
+    "nome": "Turma de Psicologia",
+    "admin": "Beard",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "index": 4,
+    "foto": "cache/fotos/turma/4.png",
+    "sincronizado": true,
+    "nome": "Turma de Psicologia",
+    "admin": "Lyons",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "index": 5,
+    "foto": "cache/fotos/turma/5.png",
+    "sincronizado": false,
+    "nome": "Turma de Psicologia",
+    "admin": "Chrystal",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "index": 6,
+    "foto": "cache/fotos/turma/6.png",
+    "sincronizado": false,
+    "nome": "Turma de Psicologia",
+    "admin": "Marie",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "index": 7,
+    "foto": "cache/fotos/turma/7.png",
+    "sincronizado": true,
+    "nome": "Turma de Psicologia",
+    "admin": "Mitzi",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "index": 8,
+    "foto": "cache/fotos/turma/8.png",
+    "sincronizado": true,
+    "nome": "Turma de Psicologia",
+    "admin": "Alston",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "index": 9,
+    "foto": "cache/fotos/turma/9.png",
+    "sincronizado": false,
+    "nome": "Turma de Psicologia",
+    "admin": "Jordan",
+    "notificacoes": [
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      },
+      {
+        "id": "{{index()}",
+        "mensagem": "Olá, Bianca! Tem novidade no myClass. Clique para ver.",
+        "link": "http://localhost/apps/projeto01/notificacoes",
+        "acao": "abrir"
+      }
+    ]
+  }
+]

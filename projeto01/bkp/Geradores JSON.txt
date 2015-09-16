@@ -1,0 +1,55 @@
+LINK PARA GERADOR ONLINE:
+http://beta.json-generator.com
+
+/*
+ * Gerador de CONTATOS
+ */
+
+[
+  {
+    'repeat:50': {
+      id: '{{71910000+phone()}}',
+      index: '{{index()}}',
+      foto: 'cache/fotos/perfil/{{71910000+phone()}}.png',
+      sincronizado: '{{bool()}}',
+      nome: {
+        primeiroNome: '{{firstName()}}',
+        sobrenome: '{{surname()}}'
+      },
+      email: function (tags) {
+        return (this.nome.primeiroNome + '.' + this.nome.sobrenome + '@hotmail' + tags.domainZone()).toLowerCase();
+      },
+      telefone: '{{phone()}}',
+      status: function (tags) {
+        return 'Oii, ' + this.nome.primeiroNome + '! Você tem ' + tags.integer(5, 10) + ' notificações.';
+      }
+    }
+  }
+]
+
+
+
+/*
+ * Gerador de TURMAS
+ */
+
+[
+  {
+    'repeat:10': {
+      id: '{{index()}}',
+      index: '{{index()}}',
+      foto: 'cache/fotos/turma/{{index()}}.png',
+      sincronizado: '{{bool()}}',
+      nome: 'Turma de Psicologia',
+      admin: '{{firstName()}}',
+      notificacoes: [{
+        'repeat:5': {
+          id: '{{index()}',
+          mensagem: 'Olá, Bianca! Tem novidade no myClass. Clique para ver.',
+          link: 'http://localhost/apps/projeto01/notificacoes',
+          acao: 'abrir'
+        }
+      }]
+    }
+  }
+]

@@ -1,4 +1,12 @@
-var app = angular.module('myClass', []);
+var app = angular.module('myClass', [
+		'myClass.contatos'
+	]);
+
+var GLOBAL = {
+	CONTATOSWS: {
+		url: 'cache/contatos.json'
+	}
+};
 
 app.controller('myClassController', ['$scope', function($scope, $http) {
 	
@@ -15,9 +23,10 @@ app.controller('myClassController', ['$scope', function($scope, $http) {
 
 app.controller('painelController', ['$scope', '$http', function($scope, $http) {
 	
-	
-	$scope.testes = $http.get("cache/contatos.json")
-    .success(function(response) {$scope.names = response.records;});
+	// utiliza variável global para o WebService do Módulo Contatos
+	$http.get(GLOBAL.CONTATOSWS.url).success(function(data){
+        $scope.lista = data;
+    });
 	
 	$scope.init = init();
 	$scope.listarContatos = listarContatos;
@@ -27,24 +36,7 @@ app.controller('painelController', ['$scope', '$http', function($scope, $http) {
 	}
 	
 	function listarContatos() {
-		//if ($scope.painel == 'contatos') {
-			$http({
-			  method: 'JSONP',
-			  url: 'cache/contatos.json'
-			}).success(function(data, status, headers, config) {
-			  console.log(config);
-			  // data contains the response
-			  $scope.contatos = data;
-			  // status is the HTTP status
-			  $scope.requisicao = status;
-			  // headers is the header getter function
-			  // config is the object that was used to create the HTTP request
-			}).error(function(data, status, headers, config) {
-				console.log(config);
-				$scope.erro = "Não achamos nada.";
-				console.log("Não achamos nada.");
-			});
-		//}
+		
 	}
 }]);
 

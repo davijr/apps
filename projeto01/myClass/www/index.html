@@ -55,8 +55,7 @@
       <div ng-controller="painelController" class="painel">
       	<br><br>
         <!--<br><br><br><br><br><br>-->
-        {{erro}}
-        {{testes}}
+        {{lista}}
         <ul>
         	<li ng-repeat="c in contatos">
             	{{c.perfil.nome.primeiroNome}} {{c.perfil.nome.sobrenome}}<br>
@@ -104,5 +103,9 @@
 	<!-- App - myClass -->
 	<script type="text/javascript" src="includes/components/app/app.module.js"></script>
 	<script type="text/javascript" src="includes/components/app/app.controller.js"></script>
+
+	<!-- -->
+	<script type="text/javascript" src="includes/components/contatos/contatos.module.js"></script>
+
   </body>
 </html>

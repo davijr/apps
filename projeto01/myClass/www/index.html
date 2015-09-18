@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="myClass">
+  <head>
+	<!-- CONFIGURAÇÕES -->
+	  <meta charset="utf-8">
+	  <!-- tag: personalizar tamanho da tela -->
+		
+	<!-- BOWER COMPONENTS -->
+	  <!-- AngularJS -->
+	  <script type="text/javascript" src="includes/bower_components/angularjs/angular.min.js"></script>
+	  <!-- Polymer -->
+		
+	<!-- PERSONALIZAÇÃO -->
+	  <!-- CSS proprio -->
+       <style>
+	   	body {
+			margin:0 auto;
+		}
+		.header {
+			width:100%;
+			display:block;
+		}
+		.tab {
+			float:left;
+			width:23%;
+			background:#57BDBB;
+			color:#fff;
+			padding:4pt;
+		}
+		.painel {
+			width:100%;
+		}
+		</style>
+	  <!-- JS proprio -->
+  </head>
+  <body>
+	<!-- CONTAINER GERAL -->
+    <div ng-controller="myClassController">
+	  <!-- FIXED HEADER -->
+      <div class="header">
+		<!-- TOOLBAR -->
+        <h1>myClass | {{ painel }}</h1>
+		<!-- FIM: TOOLBAR -->
+		  
+		<!-- TABS -->
+        <div class="tab"><h3 ng-click="selecionarPainel('notificacoes')">Notificações</h3></div>
+        <div class="tab"><h3 ng-click="selecionarPainel('contatos')">Contatos</h3></div>
+        <div class="tab"><h3 ng-click="selecionarPainel('turma')">Turma</h3></div>
+        <div class="tab"><h3 ng-click="selecionarPainel('perfil')">Perfil</h3></div>
+		<!-- FIM: TABS -->
+      </div>
+	  <!-- FIM: FIXED HEADER -->
+		
+	  <!-- SWIPPE PANEL -->
+      <div ng-controller="painelController" class="painel">
+      	<br><br>
+        <!--<br><br><br><br><br><br>-->
+        {{erro}}
+        {{testes}}
+        <ul>
+        	<li ng-repeat="c in contatos">
+            	{{c.perfil.nome.primeiroNome}} {{c.perfil.nome.sobrenome}}<br>
+				{{c.telefone}}
+            </li>
+        </ul>
+        
+      </div>
+      
+      
+	  <!-- FIM: SWIPPE PANEL -->
+		
+	  <!-- FOOTER -->
+	  <!-- FIM: FOOTER -->
+    </div>
+	<!-- FIM: CONTAINER GERAL -->
+
+    <!-- TESTE
+    <style type="text/css">
+    	body {
+    		margin: 0 auto;
+    	}
+    	#console {
+    		width: 100%;
+    		height: 100%;
+    		margin: 0 auto;
+    		background: black;
+    		color: #fff;
+    		font-size: 30pt;
+    		vertical-align: middle;
+    		text-align: center;
+    	}
+    </style>
+    
+    <div ng-controller="myClassController">
+        <input type="text" ng-model="person.name" placeholder="Name"></input>
+        <a ng-click="sayHello()">Say hello</a> {{ person.name }}
+    </div>-->
+
+
+	<!-- JS fim de pagina
+	<script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/main.js"></script>
+	
+	<!-- App - myClass -->
+	<script type="text/javascript" src="includes/components/app/app.module.js"></script>
+	<script type="text/javascript" src="includes/components/app/app.controller.js"></script>
+  </body>
+</html>

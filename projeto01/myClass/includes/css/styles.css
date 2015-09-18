@@ -1,0 +1,39 @@
+body
+{
+  font-size: 40pt;
+}
+
+
+paper-header-panel {
+  --paper-header-panel-shadow: {
+      height: 6px;
+      bottom: -6px;
+      box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
+  };
+}
+
+paper-slider {
+  --paper-header-panel-standard-container: {
+    border: 1px solid gray;
+  };
+
+  --paper-header-panel-seamed-container: {
+    border: 1px solid gray;
+  };
+
+  --paper-header-panel-waterfall-container: {
+    border: 1px solid gray;
+  };
+
+  --paper-header-panel-waterfall-tall-container: {
+    border: 1px solid gray;
+  };
+
+  --paper-header-panel-scroll-container: {
+    border: 1px solid gray;
+  };
+
+  --paper-header-panel-cover-container: {
+    border: 1px solid gray;
+  };
+}

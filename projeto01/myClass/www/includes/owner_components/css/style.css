@@ -1,0 +1,17 @@
+body {
+	margin:0 auto;
+}
+.header {
+	width:100%;
+	display:block;
+}
+.tab {
+	float:left;
+	width:23%;
+	background:#57BDBB;
+	color:#fff;
+	padding:4pt;
+}
+.painel {
+	width:100%;
+}

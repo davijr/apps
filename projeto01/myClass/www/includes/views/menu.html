@@ -1,0 +1,26 @@
+<!--<div class="container">
+	<nav class="navbar navbar-default navbar-avliq">
+		<ul class="nav navbar-nav" data-ng-repeat="part in vmApp.menu">
+			<li class="dropdown">
+				<a class="dropdown-toggle avliq" data-toggle="dropdown" role="button" aria-expanded="false">{{part.name}} <span class="fa fa-caret-down"></span></a>
+				<ul class="dropdown-menu" role="menu" data-ng-repeat="item in part.itens">
+					<li class="dropdown-submenu" data-ng-repeat="i in item">
+						<a class="unico-{{i.unico}}" data-ui-sref="{{i.url}}">{{i.name}}</a>
+						<ul class="dropdown-menu" data-ng-show="i.subitens">
+							<li class="dropdown-submenu" data-ng-repeat="si in i.subitens">
+								<a tabindex="-1" data-ui-sref="{{si.url}}">{{si.name}}</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</div>-->
+
+<h3>Este é o MENU do MyClass</h3>
+<ul>
+	<li data-ng-repeat="item in vmApp.menu">
+		<a data-ui-sref="{{item.url}}">{{item.nome}}</a>
+	</li>
+</ul>

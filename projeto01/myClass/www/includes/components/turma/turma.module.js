@@ -7,6 +7,6 @@
 
     
     angular
-        .module('MyClass.contatos', []);
+        .module('MyClass.turma', []);
     
 })(angular);

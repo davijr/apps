@@ -27,20 +27,15 @@ angular.module('myClass', ['fsCordova'])
     }, 3000);
 }]);
 */
-
+/*
 (function() {
-  'use strict';
+  'use strict';*/
   
   
   // This is the basic entry point of the application
-  var appModule = angular.module(
+  var app = angular.module(
       'MyClass', [
-          'MyClass.welcome',
-          'MyClass.notificacoes',
-          'MyClass.contatos', 
-          'MyClass.turma',
-          'MyClass.perfil'
-
+          'MyClass.contatos'
           ]);
   
   /* SET CONSTANTS */
@@ -349,5 +344,5 @@ angular.module('myClass', ['fsCordova'])
           getData: getData
       };
   }*/
-
-})(); 
+/*
+})(); */

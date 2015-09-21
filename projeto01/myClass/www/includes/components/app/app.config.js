@@ -2,14 +2,14 @@
 	'use strict';
 	
 	angular
-		.module('myClass')
+		.module('MyClass')
 		.config(setRoutes);
 	
-	setRoutes.$inject = ['$stateProvider', '$urlRouterProvider'];
+	setRoutes.$inject = ['$stateProvider', '$urlRouterProvider']; // PRA QUÊ??
 	
 	function setRoutes($stateProvider, $urlRouterProvider) {
 
-		$urlRouterProvider.when('', '/');
+		$urlRouterProvider.when('', '/'); // PRA QUÊ??
 		
 		$stateProvider
 				.state('app', {

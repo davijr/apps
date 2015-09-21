@@ -1,0 +1,27 @@
+
+[body]
+
+
+
+<template>
+
+	<header>
+
+	  // logo da aplicação
+
+		<toolbar>
+		  // menu em modelo de tabs
+		</toolbar>
+
+	</header>
+
+
+	<content>
+	  // conteúdo dinâmico da tela
+	<content>
+
+
+</template>
+
+
+[/body]

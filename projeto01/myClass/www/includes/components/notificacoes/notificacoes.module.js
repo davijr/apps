@@ -1,5 +1,5 @@
 /**
- * Creates and initilizes the module natureza
+ * Creates and initilizes the module 
  */
 
 (function(angular) {
@@ -7,6 +7,6 @@
 
     
     angular
-        .module('MyClass.contatos', []);
+        .module('MyClass.notificacoes', []);
     
 })(angular);

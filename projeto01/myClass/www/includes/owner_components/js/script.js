@@ -1,6 +1,4 @@
-var app = angular.module('myClass', [
-		'myClass.contatos'
-	]);
+var app = angular.module('MyClass', ['MyClass.contatos']);
 
 var GLOBAL = {
 	CONTATOSWS: {
@@ -8,6 +6,7 @@ var GLOBAL = {
 	}
 };
 
+/*
 app.controller('myClassController', ['$scope', function($scope, $http) {
 	
   //variáveis
@@ -18,17 +17,17 @@ app.controller('myClassController', ['$scope', function($scope, $http) {
 	  $scope.painel = painel;
   }
   
-}]);
+}]);*/
 
 
-app.controller('painelController', ['$scope', '$http', function($scope, $http) {
+app.controller('ContatosController', ['$scope', '$http', function($scope, $http) {
 	
 	// utiliza variável global para o WebService do Módulo Contatos
-	$http.get(GLOBAL.CONTATOSWS.url).success(function(data){
-        $scope.lista = data;
+	$http.get(GLOBAL.CONTATOSWS.url).success( function(data){
+        $scope.contatos = data;
     });
 	
-	$scope.init = init();
+	/*$scope.init = init();
 	$scope.listarContatos = listarContatos;
 	
 	function init() {
@@ -37,7 +36,8 @@ app.controller('painelController', ['$scope', '$http', function($scope, $http) {
 	
 	function listarContatos() {
 		
-	}
+	}*/
+
 }]);
 
 

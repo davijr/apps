@@ -13,7 +13,7 @@ angular.module('myClass', ['fsCordova'])
 	'use strict';
 	
 	angular
-		.module('myClass')
+		.module('MyClass')
 		.controller('AppCtrl', AppCtrl);
 	
 	//AppCtrl.$inject = ['$rootScope', '$scope', '$state', 'Alert','URL_MENU'];

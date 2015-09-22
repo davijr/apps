@@ -1,22 +1,68 @@
-<!DOCTYPE html>
-<html ng-app="myClass">
-<head>
-	<title>myClass</title>
-	<meta charset="utf-8"/>
-	<script type="text/javascript" src="includes/bower_components/angularjs/angular.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+ <html ng-app="app">
+ <head>
+	 <title>myClass</title>
+	 <!-- CONFIGURAÇÕES -->
+	 <meta charset="utf-8">
+
+	 <!-- CSS -->
+	 <link rel="stylesheet" type="text/css" href="includes/owner_components/css/estilo.css">
+
+	 <!-- ANGULAR -->
+	 <script type="text/javascript" src="includes/bower_components/angular/angular.js"></script>
+	 <script type="text/javascript" src="includes/bower_components/angular/angular-route.js"></script>
+	 <script type="text/javascript" src="includes/bower_components/angular/angular-resource.js"></script>
+	 
+	 <!-- MÓDULO PRINCIPAL: APP -->
+	 <script src="includes/components/app/app.module.js"></script>
+	 <script src="includes/components/app/app.config.js"></script>
+	 <script src="includes/components/app/app.controller.js"></script>
+
+	 <!-- MÓDULO: NOTIFICAÇÕES -->
+	 <script src="includes/components/notificacoes/notificacoes.controller.js"></script>
+
+	 <!-- MÓDULO: CONTATOS -->
+	 <script src="includes/components/contatos/contatos.controller.js"></script>
+
+	 <!-- MÓDULO: TURMA -->
+	 <script src="includes/components/turma/turma.controller.js"></script>
+
+	 <!-- MÓDULO: PERFIL -->
+	 <script src="includes/components/perfil/perfil.controller.js"></script>
+
 </head>
-<body>
+ <body>
 
-<h3>Deep Links</h3>
-<div ng-view></div>
+ 	<div class="main">
+ 		<!-- HEADER -->
+		<div class="header">
+			<!-- LOGO -->
+			<div class="head">
+				<h2>myClass</h2>
+			</div>
 
-<!-- INCLUDES JS -->
+			<!-- TABS -->
+			<div class="menuTabs">
+				<ul>
+					<li class="tab">
+						<a href="#/notificacoes">Notificações</a>
+					</li>
+					<li class="tab">
+						<a href="#/contatos">Contatos</a>
+					</li>
+					<li class="tab">
+						<a href="#/turma">Turma</a>
+					</li>
+					<li class="tab">
+						<a href="#/perfil">Perfil</a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+		</div>
 
+		<!-- CONTENT -->
+		<div class="content" ng-view></div>
+	</div>
 
-<!--script type="text/javascript" src="includes/components/app.controller.js"></script>
-<script type="text/javascript" src="includes/components/app.module.js"></script>
-<script type="text/javascript" src="includes/components/app.config.js"></script-->
-
-</body>
-</html>
+ </body>
+ </html>

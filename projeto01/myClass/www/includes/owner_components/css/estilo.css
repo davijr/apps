@@ -7,11 +7,11 @@ body {
 }
 .tab {
 	float:left;
-	width:23%;
 	background:#57BDBB;
+	width:auto;
 	color:#fff;
-	padding:4pt;
+	padding:8pt;
 }
-.painel {
+.content {
 	width:100%;
 }

@@ -1,0 +1,16 @@
+<div>
+
+
+	<h1>CONTATOS {{paginaAtual}}</h1>
+
+	<br><br>
+
+	<ul>
+		<li ng-repeat="c in vmContatos.listaContatos">
+			<img src="{{c.url"/> 
+			<h5>{{c.nome.primeiroNome}} {{c.nome.sobrenome}}</h5>
+			<p>{{c.telefone}}</p>
+		</li>
+	</ul>
+
+</div>

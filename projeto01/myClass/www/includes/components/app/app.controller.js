@@ -1,4 +1,4 @@
-app.controller('listController',function ($scope) {
+/*app.controller('listController',function ($scope) {
 	console.log('listController');
 });
 
@@ -24,4 +24,4 @@ app.controller('newController', function ($scope,$location,$routeParams) {
 	$scope.fruits.push($scope.fruit);
 	$location.path('/');
 	}
-});
+});*/

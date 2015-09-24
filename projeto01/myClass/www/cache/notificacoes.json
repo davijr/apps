@@ -1,8 +1,0 @@
-[{
-	notificacoes: {
-		id: 1,
-		titulo: "Conteúdo para prova",
-		conteudo: "Introduçao ao assunto da disciplina",
-		dataCriacao: "23/09/2015"
-	}
-}]

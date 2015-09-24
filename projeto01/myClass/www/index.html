@@ -3,9 +3,20 @@
 	 <title>myClass</title>
 	 <!-- CONFIGURAÇÕES -->
 	 <meta charset="utf-8">
+     <meta name="description" content="myClass app é um aplicativo acadêmico simples, prático e útil.">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	 <!-- CSS -->
 	 <link rel="stylesheet" type="text/css" href="includes/owner_components/css/estilo.css">
+
+	<!-- MATERIAL DESIGN LITE -->
+     <link rel="stylesheet" href="includes/bower_components/material/material.css">
+	 <script src="includes/bower_components/material/material.js"></script>
+     <!-- THEME @link: http://www.getmdl.io/templates/index.html -->
+     <link rel="stylesheet" href="includes/bower_components/material/styles.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	 <!-- ANGULAR -->
 	 <script type="text/javascript" src="includes/bower_components/angular/angular.js"></script>
@@ -30,39 +41,28 @@
 	 <script src="includes/components/perfil/perfil.controller.js"></script>
 
 </head>
- <body>
+ <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 
- 	<div class="main">
+ 	<div class="_main mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
  		<!-- HEADER -->
-		<div class="header">
-			<!-- LOGO -->
-			<div class="head">
-				<h2>myClass</h2>
-			</div>
-
-			<!-- TABS -->
-			<div class="menuTabs">
-				<ul>
-					<li class="tab">
-						<a href="#/notificacoes">Notificações</a>
-					</li>
-					<li class="tab">
-						<a href="#/contatos">Contatos</a>
-					</li>
-					<li class="tab">
-						<a href="#/turma">Turma</a>
-					</li>
-					<li class="tab">
-						<a href="#/perfil">Perfil</a>
-					</li>
-				</ul>
-			</div>
-			<div style="clear:both"></div>
-		</div>
+        <header class="_header mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        	
+            <div class="mdl-layout__header-row">
+            	<!-- Title -->
+      			<span class="mdl-layout-title">myClass</span>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+                <a ng-repeat="pagina in paginas" ng-href="{{pagina.url}}" class="mdl-layout__tab {{pagina.ativo}}">{{pagina.titulo}}</a>
+            </div>
+        
+		</header>
 
 		<!-- CONTENT -->
-		<div class="content" ng-view></div>
-	</div>
+		<main class="_content mdl-layout__content">
+        	<div ng-view></div>
+        </main>
+        
+	</div> <!-- mdl-layout -->
 
  </body>
  </html>

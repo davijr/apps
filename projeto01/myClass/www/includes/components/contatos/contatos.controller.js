@@ -1,4 +1,4 @@
-app.controller('contatosController', function ($scope, $resource) {
+app.controller('contatosController', function ($scope, $resource, $rootScope) {
 	var vmContatos = this;
 
 	ContatosResource = $resource('cache/contatos.json');
@@ -14,13 +14,16 @@ app.controller('contatosController', function ($scope, $resource) {
 
 	// listar contatos armazenados no dispositivo
 	$scope.listarContatos = function() {
-		console.log('aquiiii 1');
 		ContatosResource.query( function(data) {
-			vmContatos.listaContatos = data;
+			$scope.listaContatos = data;
 		});
 	}
 
 	$scope.listarContatos();
+	
+	// Definir qual a tab atual
+	$rootScope.limparPaginas();
+	$rootScope.paginaAtual.contatos.ativo = "is-active";
 
 
 });

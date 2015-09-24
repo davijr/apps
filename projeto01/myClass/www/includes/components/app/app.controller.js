@@ -1,27 +1,12 @@
-/*app.controller('listController',function ($scope) {
-	console.log('listController');
-});
+app.controller('appController', function ($rootScope, $scope) {
+	var vmApp = this;
+	
+	$rootScope.isactive = "is-active";
 
-app.controller('editController', function ($scope,$location,$routeParams) {
-	$scope.title = "Editar Fruta";
-	$scope.fruit = $routeParams.name;
-
-	$scope.fruitIndex = $scope.fruits.indexOf($scope.fruit);
-
-	$scope.save = function(){
-	$scope.fruits[$scope.fruitIndex]=$scope.fruit;
-
-	$location.path('/');
+	$scope.selecionarPagina = function(pagina) {
+		$scope.paginaAtual = pagina;
 	}
+	
+	$scope.selecionarPagina();
+
 });
-
-app.controller('newController', function ($scope,$location,$routeParams) {
-
-	$scope.title = "Nova Fruta";
-	$scope.fruit = "";
-
-	$scope.save = function(){
-	$scope.fruits.push($scope.fruit);
-	$location.path('/');
-	}
-});*/
